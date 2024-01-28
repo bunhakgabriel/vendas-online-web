@@ -1,8 +1,44 @@
 {
     "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true
+      "source.fixAll.eslint": "explicit"
     },
     "eslint.validate": [
       "javascript"
+    ],
+    "cSpell.words": [
+      "ajustar",
+      "anteriores",
+      "arquivo",
+      "automaticamente",
+      "biblioteca",
+      "caminho",
+      "certo",
+      "cobre",
+      "colocar",
+      "completamente",
+      "contém",
+      "conteúdo",
+      "deve",
+      "dimensionar",
+      "elemento",
+      "enquanto",
+      "então",
+      "escrever",
+      "estilos",
+      "importa",
+      "importada",
+      "importar",
+      "necessario",
+      "pagina",
+      "porem",
+      "precisarmos",
+      "proporção",
+      "próprio",
+      "reconhece",
+      "seria",
+      "teste",
+      "usar",
+      "vamos",
+      "Versões"
     ]
 }
