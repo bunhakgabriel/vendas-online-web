@@ -1,12 +1,17 @@
 //Versões anteriores do react 17, é necessario importar o react
 
-import { BackgroundImage } from "../styles/LoginScreen.style"
+import { BackgroundImage, ContainerLogin, LogoImage, LimitedContainer, ContainerLoginScreen } from "../styles/LoginScreen.style"
 
 const LoginScreen = () => {
     return (
-        <div>
+        <ContainerLoginScreen>
             <BackgroundImage src="./background.png" />
-        </div>
+            <ContainerLogin>
+                <LimitedContainer>
+                    <LogoImage src="./logo.png" />
+                </LimitedContainer>
+            </ContainerLogin>
+        </ContainerLoginScreen>
     )
 }
 
