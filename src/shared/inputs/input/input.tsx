@@ -2,7 +2,7 @@ import { Input as InputAntd } from 'antd'; //estamos renomeando o 'Input' do ant
 import { BoxInput, TitleInput } from './input.styles';
 import { InputHTMLAttributes } from 'react';
 
-interface InputProps extends InputHTMLAttributes<HTMLInputElement> { //Estamos dizendo que o InputProps é do tipo html
+interface InputProps extends InputHTMLAttributes<HTMLInputElement> { //Estamos dizendo que o InputProps é um input tipo html
     title?: string // '?' significa que o titulo é opcional
 }
 

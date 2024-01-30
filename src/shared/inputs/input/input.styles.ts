@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
+import { Space, Typography } from 'antd';
+
+const { Text, Link } = Typography;
+
 export const BoxInput = styled.div`
+    width: 100%;
 `
 
-export const TitleInput = styled.h3`
-    font-family: sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 21px;
+export const TitleInput = styled(Text)` //Substituimos o 'h3' por 'Text' que vem do antd na seção tipografia
     margin: 8px;
 `
